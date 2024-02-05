@@ -29,8 +29,8 @@ git clone https://github.com/uprightsleepy/Go_Getter
 cd GoGetter
 ```
 
-3. Initialize Terraform to set up AWS resources:
+3. Run the application:
 ```bash
-terraform init
-terraform apply
+go build GoGetter
 ```
+Note: Please ensure that all applicable AWS resources have been created beforehand. You will need to utilize your resources.
